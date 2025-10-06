@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shailesh Paudel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="home.html"><img src="image/shailesh1-removebg-preview.png" alt="Shailesh Logo"></a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="nav-links">
+      <a href="#"> Home</a>
+      <a href="#hero"> About</a>
+      <a href="#featured-services"> Services</a>
+      <a href="#skills"> Skills</a>
+      <a href="#projects"> Projects</a>
+      <a href="#contact"> Contact</a>
+    </nav>
+
+    <!-- Desktop Socials -->
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <button class="menu-btn" aria-label="Toggle Menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <nav id="mobileMenu" class="mobile-menu" role="menu">
+      <a href="#" class="active" role="menuitem">Home</a>
+      <a href="#hero" role="menuitem"> About</a>
+      <a href="#featured-services" role="menuitem">Services</a>
+      <a href="#skills" role="menuitem">Skills</a>
+      <a href="#projects" role="menuitem">Project</a>
+      <a href="#contact" role="menuitem">Contact</a>
+      <div class="mobile-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Intro text -->
+  <section class="hero-intro">
+    <div class="intro-container">
+      <div class="intro-content">
+        <div class="intro-text">
+          <p class="greeting">HELLO!</p>
+          <div class="name-section">
+            <p class="intro-line">I'm <span class="name-highlight">Shailesh</span></p>
+            <p class="intro-line"><span class="name-highlight">Paudel</span></p>
+          </div>
+          <p class="role-title">A Freelance Web Developer</p>
+          <div class="action-buttons">
+            <a href="#contact"><button class="primary-btn"><i class="fa-solid fa-handshake-simple"></i> HIRE ME</button></a>
+            <a href="#projects"><button class="secondary-btn"><i class="fa-solid fa-store"></i> MY WORKS</button></a>
+          </div>
+        </div>
+        <div class="intro-image">
+          <div class="image-container">
+            <div class="accent-ring" aria-hidden="true"></div>
+            <img src="image/profile.jpg" alt="Shailesh Paudel - Web Developer" class="profile-image">
+            <div class="image-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tagline">
+        <p class="tagline-text">Innovative Development • Creative Design • Digital Excellence</p>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <!-- HERO SECTION  -->
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="bg-image"> </div>
+    <div class="hero-container">
+      <h1 class="hero-title">
+       <h2>About Me</h2>
+        
+      </h1>
+      <div class="line"></div>
+      <p class="description">
+        As an aspiring IT professional, I craft digital experiences that merge technology with
+        creativity. From interactive websites to compelling visual designs, my work bridges
+        functionality with aesthetics—ensuring every project is both user-friendly and visually engaging.
+      </p>
+      <p class="description">
+        My portfolio highlights projects such as “E-Commerce”, “Responsive Portfolio Website”, and
+        “Imposter Game”, each reflecting a strong grasp of coding, design principles, and problem-solving.
+        Every line of code and every pixel is carefully placed to deliver clarity, usability, and impact.
+      </p>
+      <p class="description">
+        With expertise in web development, UI/UX, and graphic design, I am committed to building solutions
+        that not only work seamlessly but also tell stories through modern visuals and intuitive interactions.
+        In 2025 and beyond, my goal is to contribute to the ever-evolving digital world by creating products that
+        inspire, connect, and innovate.
+      </p>
+      <a href="#contact" class="btn"><i class="fa-solid fa-user"></i>  Contact</a>
+    </div>
+  </section>
+  
+  <!-- Featured Services Section -->
+  <section class="featured-services" id="featured-services">
+    <h2>Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>Web Design</h3>
+        <div class="divider"></div>
+        <p>Create visually stunning, responsive interfaces that put user experience first.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Web Development</h3>
+        <div class="divider"></div>
+        <p>Build fast, accessible, and maintainable websites using modern web technologies.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-camera-retro"></i></div>
+        <h3>Photography</h3>
+        <div class="divider"></div>
+        <p>Professional photography services for portraits, events, and product shots.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <h3>App Developing</h3>
+        <div class="divider"></div>
+        <p>Design and develop mobile-friendly applications and progressive web apps.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+        <h3>Graphic Designing</h3>
+        <div class="divider"></div>
+        <p>Create impactful, creative, and visually compelling designs with modern tools.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-hammer"></i></div>
+        <h3>Video Editing</h3>
+        <div class="divider"></div>
+        <p>Produce engaging, polished, and cinematic videos with modern editing tools.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="skills-container">
+      <h2>My Skills</h2>
+    
+      <div class="skills-grid">
+        <div class="skill-row">
+          <div class="skill-name">Photoshop</div>
+          <div class="skill-percent">70%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:70%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-row">
+          <div class="skill-name">Premiere Pro</div>
+          <div class="skill-percent">65%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:65%"></div>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">HTML</div>
+          <div class="skill-percent">90%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">CSS</div>
+          <div class="skill-percent">85%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:85%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-row">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-percent">70%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:70%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-row">
+          <div class="skill-name">Flutter</div>
+          <div class="skill-percent">60%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width:60%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="projects-container">
+      <h2>My Projects</h2>
+  
+      <div class="projects-grid">
+        <div class="project-item medium">
+          <img src="image/todolist.png" alt="Project 2" loading="lazy">
+          <div class="project-overlay"><div class="overlay-content"><h3>TodoList</h3></div></div>
+        </div>
+
+        <div class="project-item large">
+          <img src="image/ecommerce.png" alt="Project 3" loading="lazy">
+          <div class="project-overlay"><div class="overlay-content"><h3>E-commerce Page </h3></div></div>
+        </div>
+
+        <div class="project-item large">
+          <img src="image/portfolio.png" alt="Project 4" loading="lazy">
+          <div class="project-overlay"><div class="overlay-content"><h3> My Old Portfolio</h3></div></div>
+        </div>
+
+        <div class="project-item medium"> 
+          <img src="image/note.jpg" alt="Project 4" loading="lazy">
+          <div class="project-overlay"> <div class="overlay-content"><h3>Quick Notes App</h3></div></div>
+        </div>
+
+      
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        
+        <ul class="contact-details">
+          <p>Have a project or want to say hi? Fill out the form and I'll get back to you soon.</p>
+          <li><i class="fa-solid fa-phone"></i> +977 9863999997</li>
+          <li><i class="fa-solid fa-envelope"></i> paudelshail897@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Hetauda, Nepal</li>
+        </ul>
+      </div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name">
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Project or question">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="primary-btn">Send Message</button>
+          <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <div class="logo"> <img src="image/shailesh1-removebg-preview.png"> </div>
+        <p>We capture your moments with creativity, passion, and professionalism. Your memories deserve to shine!</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+         <a href="#"> Home</a>
+      <a href="#hero"> About</a>
+      <a href="#featured-services"> Services</a>
+      <a href="#skills"> Skills</a>
+      <a href="#projects"> Projects</a>
+      <a href="#contact"> Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Connect</h4>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i> +9779863999997</a>
+        <a href="#"><i class="fa-solid fa-envelope"></i> paudelshail897@gmail.com</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i> Hetauda, Nepal</a>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Shailesh Paudel. All Rights Reserved.</p>
+
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
