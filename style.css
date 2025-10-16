@@ -299,7 +299,10 @@ img {
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
-  
+ 
+}
+.underline{
+  text-decoration: none;
 }
 
 .primary-btn,
